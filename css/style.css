@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+footer {
+    background-color: #121116;
+     padding: 5.5% 0 2% 0; /*проценты просто пробовал, чтоб при уменьшении и уменьшался паддинг */
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.logo a {
+    cursor: url(../img/mouse.cur), pointer;
+}
+
+.social-list {
+    margin: 4.4% 0 7% 0; /*проценты просто пробовал, чтоб при уменьшении и уменьшался паддинг */
+    padding: 0;
+    list-style: none;
+}
+
+.social-list h2 {
+    width: 230px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+    border-bottom: 2px solid #fefbfc;
+    padding-bottom: 20px;
+}
+
+.social-list__item {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.social-list__item + .social-list__item {
+    margin-left: 35px;
+}
+
+.social-list__link {
+    color: #fff;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+
+.social-list__link:hover .fab {
+    color: #19c8fa;
+    transform: scale(2);
+    transition: all .3s  ease-in-out;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+p a {
+    color: #19c8fa;
+    text-decoration: none;
+    cursor: url(../img/mouse.png), pointer;
+}
